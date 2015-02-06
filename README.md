@@ -21,10 +21,10 @@ The good news is that `Gulp` streams all things, a `Gulp` plugin can be used in 
 
 [NodeZA](https://github.com/nodeza/nodeza) uses a module called `multer` for handling image uploads, for the purposes of this tutorial I will create a very simple `express` application to demonstrate my use case.
 
-We going to 2 `Gulp` plugins for images processing, `gulp-image-resize` and `gulp-imagemin`. 
+We are going to use 2 `Gulp` plugins for images processing, `gulp-image-resize` and `gulp-imagemin`. 
 
 Let's create our express app
-(This requires express to be installed globally `npm i expresss -g`)
+(this requires express to be installed globally `npm i expresss -g`)
 
     express image-processing
     
@@ -196,6 +196,6 @@ Lastly, add form markup to the index.jade file in the views directory.
 
 That's all. Please make sure you monitor the number of processes running at a time otherwise the app will keep on spawning new processes that could overwhelm your machine.
 
-All the code used in this article can be found on Github - [Fork It]. 
+All the code used in this article can be found on Github - [Fork It](https://github.com/qawemlilo/image-processing). 
 
 Keep hacking! 
